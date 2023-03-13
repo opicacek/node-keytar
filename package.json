@@ -1,9 +1,9 @@
 {
   "main": "./lib/keytar.js",
   "typings": "keytar.d.ts",
-  "name": "@postman/node-keytar",
+  "name": "@postman/final-node-keytar",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
-  "version": "7.9.1",
+  "version": "7.9.0",
   "license": "MIT",
   "repository": {
     "type": "git",
