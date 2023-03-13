@@ -1,16 +1,16 @@
 {
   "main": "./lib/keytar.js",
   "typings": "keytar.d.ts",
-  "name": "keytar",
+  "name": "@postman/keytar",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
   "version": "7.9.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-keytar.git"
+    "url": "https://github.com/opicacek/node-keytar.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/node-keytar/issues"
+    "url": "https://github.com/opicacek/node-keytar/issues"
   },
   "homepage": "http://atom.github.io/node-keytar",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "types": "./keytar.d.ts",
   "scripts": {
-    "install": "prebuild-install || npm run build",
+    "install": "prebuild-install --verbose || npm run build -- --verbose",
     "build": "node-gyp rebuild",
     "lint": "npm run cpplint",
     "cpplint": "node-cpplint --filters legal-copyright,build-include,build-namespaces src/*.cc",
