@@ -3,7 +3,7 @@
   "typings": "keytar.d.ts",
   "name": "@postman/node-keytar",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
-  "version": "7.9.1",
+  "version": "7.9.2",
   "license": "MIT",
   "repository": {
     "type": "git",
